@@ -1,0 +1,139 @@
+/*
+HTML/CSS ASSESSMENT
+JESSICA KLATT
+06.01.2021
+*/
+
+/*==========*/
+/* DEFAULTS */
+/*==========*/
+body {
+    background:#fff;
+    
+    color:#0a162b;
+    font-family: "Cabin", sans-serif;
+    font-size:16px;
+    font-weight:400;
+    text-align: center;
+    
+    margin:0 auto;
+    padding:0;    
+}
+h1 {
+    margin:29px 0 0;
+    padding:0;
+}
+    h1 img {
+        max-width:168px;
+    }
+p {
+    margin:13px 0 0;
+    padding:0;
+}
+span.sub {
+    display:block;
+    font-size:12px;
+    margin:0;
+    padding:0;
+    text-transform: uppercase;
+}
+
+/* main navigation */
+nav ul#main-nav {
+    font-weight:700;
+    list-style:none;
+}
+    nav ul#main-nav li {
+        display:inline-block;
+        width:30%;
+    }
+        nav ul#main-nav li a,
+        nav ul#main-nav li a:link, nav ul#main-nav li a:visited {
+            color:#0a162b;
+            text-decoration:underline;
+        }
+        nav ul#main-nav li a:hover, nav ul#main-nav li a:active {
+            color:#0a162b;
+            text-decoration:none;
+        }
+/* //main navigation */
+
+/* search form */
+aside {
+    border-top:2px solid #0A162B;
+    border-bottom:2px solid #0A162B;
+    margin:20px;
+    padding:40px 0;
+}
+    aside h2 {
+        font-weight:700;
+    }
+form#search-form {}
+form#search-form label {
+    font-size:20px;
+    font-weight:700;
+}
+    form#search-form select {
+        background:#fff;
+        border:2px solid #D0D0D0;
+        border-radius:5px;
+        margin:10px 0;
+        padding:18px 20px;
+
+        color: #0A162B;
+        font-size:18px;
+    }
+    form#search-form input[type=submit] {
+        background:linear-gradient(0deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #FFC327;
+        cursor:pointer;
+
+        border:0;
+        border-radius:30px;
+        margin:0 16px;
+        padding:16px 46px;
+
+        font-family:"Cabin", sans-serif;
+        font-size:18px;
+        font-weight:700;
+        text-transform:uppercase;
+    }
+/* //search form */
+
+/* main section */
+main {
+    background:#F3FBFF;
+}
+    main h2 {
+        font-family:'Open Sans', sans-serif;
+        font-size:20px;
+        font-weight:700;
+        text-transform:uppercase;
+    }
+
+    main section {
+        background:#fff;
+        border-radius:10px;
+        display:inline-block;
+
+        margin:10px 20px;
+        padding:10px;
+        width:316px;
+    }
+        main section h3 {
+            font-size:18px;
+            font-weight:700;
+        }
+/* //main section */
+
+
+/*================*/
+/* MOBILE < 376px */
+/*================*/
+
+/*=========================*/
+/* TABLET > 377px, < 834px */
+/*=========================*/
+
+/*=================*/
+/* DESKTOP > 834px */
+/*=================*/
